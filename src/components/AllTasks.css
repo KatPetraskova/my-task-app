@@ -1,0 +1,53 @@
+.one-task {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #D9B4BE;
+    color: black;
+    margin: 10px auto;
+    width: 500px;
+}
+
+.one-task h4 {
+    padding-left: 20px;
+}
+
+.one-task button {
+    background-color: #FAACC4;
+    color: #732634;
+    border: none;
+    padding-right: 15px;
+    cursor: pointer;
+
+}
+
+.new-task {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px auto;
+    width: 500px;
+    
+}
+
+.new-task button {
+    
+    background-color: #FAACC4;
+    color: #732634;
+    border: none;
+    cursor: pointer;
+    padding: 10px 30px;
+    
+}
+
+.main-button {
+    margin: 10px auto;
+    justify-content: center;
+    background-color: #FAACC4;
+    color: #732634;
+    border: none;
+    cursor: pointer;
+    padding: 10px 30px;
+    display: block;    
+    margin: 30px auto;
+}
